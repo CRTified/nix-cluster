@@ -1,18 +1,18 @@
 keys:
   - &richard_skybox age1rm03eln8sw4wkjmqunx4hmm8fr30dnpwxl3txy4gmy0hzrwsy5sql0nhtw
-  - &host_t470p-schneider age1sjsy0p7nqcsq6c6gwwcjt73p9m34lktqtckfrxhnnuzjvqy83v3q39fztg
+  - &host_t470p age1sjsy0p7nqcsq6c6gwwcjt73p9m34lktqtckfrxhnnuzjvqy83v3q39fztg
 creation_rules:
   - path_regex: \.prod\.yaml$
     key_groups:
     - age:
       - *richard_skybox
-      - *host_t470p-schneider
+      - *host_t470p
       # TODO: Prod keys
   - path_regex: \.test\.yaml$
     key_groups:
     - age:
       - *richard_skybox
-      - *host_t470p-schneider
+      - *host_t470p
       - age1gt3ec5ngsc3agvf0tlq7lp2vyc48klfe769qaqysf5sklp6heg9sjme3pg
 
 

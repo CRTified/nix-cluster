@@ -53,4 +53,8 @@
       openmpi
     ];
   };
+
+  system = {
+    stateVersion = "23.11";
+  };
 }

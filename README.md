@@ -38,6 +38,7 @@ having a shared (static) network on a separate, internal interface.
    - [ ] Testing
  - [X] SLURM for Workload Management
    - [X] `munged`
+     - [X] Testing mutual authentication
    - Controller
 	 - [X] `slurmdb`
 	 - [X] `slurmctld`
